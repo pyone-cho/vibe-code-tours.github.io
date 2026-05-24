@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import FaqBody from '../../components/FaqBody.astro';
+import { t } from '../../i18n/utils';
+const s = t('my').faq;
+---
+<Base title={s.title} description={s.description}>
+  <FaqBody />
+</Base>

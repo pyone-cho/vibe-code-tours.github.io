@@ -1,0 +1,89 @@
+---
+import { getLocale, localizedPath, type Locale } from '../i18n/utils';
+import LegalNotice from './LegalNotice.astro';
+const locale: Locale = getLocale(Astro.url.pathname);
+const about = localizedPath('/about', locale);
+---
+
+<article class="container-prose py-12 [&_h2]:mt-8 [&_h2]:text-xl [&_h3]:mt-5 [&_h3]:text-lg [&_h3]:font-semibold [&_p]:mt-3 [&_p]:text-gray-700 [&_ul]:mt-3 [&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-6 [&_li]:text-gray-700">
+  <LegalNotice />
+  <h1 class="text-3xl sm:text-4xl">Privacy Policy</h1>
+  <p class="mt-4 text-sm text-gray-500">Version 1.0.0 · Effective 2026-XX-XX</p>
+
+  <h2>What we collect</h2>
+  <h3>When you apply</h3>
+  <p>Application form data: name, email, Telegram handle, OS, RAM, internet quality, timezone, English fluency level, programming experience, AI tool experience, motivation essay, project idea, weekly time commitment, preferences (class format, code-stuck response, team role), and your honest answer to "why should we pick you."</p>
+  <h3>When you participate</h3>
+  <p>Attendance records, session feedback (anonymous or named), code you post in cohort channels, PRs you submit to the Tour Repo (public), and optional demo day recordings (with explicit opt-in).</p>
+  <h3>Automatically</h3>
+  <ul>
+    <li>Site analytics (only if enabled — currently none for Cohort 1)</li>
+    <li>Server logs from third-party hosts (GitHub Pages, Telegram, etc. — see their policies)</li>
+  </ul>
+
+  <h2>Why we collect it</h2>
+  <ul>
+    <li><strong>Application data:</strong> to score and select cohort participants per the <a href={about}>public scoring rubric</a></li>
+    <li><strong>Attendance:</strong> to ensure the cohort runs and to identify students needing support</li>
+    <li><strong>PRs:</strong> to maintain the public cohort archive (your portfolio)</li>
+    <li><strong>Demo recordings:</strong> only with your explicit consent at recording time</li>
+  </ul>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li><strong>Selection-scoring CSV:</strong> deleted 12 months after the cohort ends</li>
+    <li><strong>Application form raw data:</strong> deleted 12 months after the cohort ends</li>
+    <li><strong>Cohort channel messages:</strong> stay in Telegram per Telegram's retention; we don't archive separately</li>
+    <li><strong>Tour Repo public PRs:</strong> stay forever (it's a public archive). You may request your contributions be anonymized by emailing <a href="mailto:privacy@codecaravan.dev">privacy@codecaravan.dev</a></li>
+    <li><strong>Demo day recordings:</strong> kept indefinitely if posted publicly with your consent; deletable on request</li>
+  </ul>
+
+  <h2>Who sees it</h2>
+  <ul>
+    <li><strong>Selection data:</strong> lead instructor + named scoring team members only (currently: lead instructor only). Never sold. Never shared with third parties.</li>
+    <li><strong>Attendance:</strong> instructor only</li>
+    <li><strong>Channel messages:</strong> cohort + instructor (Telegram itself sees them per their policy)</li>
+    <li><strong>PRs + demo recordings:</strong> public, per your consent</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <ul>
+    <li><strong>GitHub</strong> (Tour Repo + this site): see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a></li>
+    <li><strong>Telegram</strong> (cohort channel): see <a href="https://telegram.org/privacy">telegram.org/privacy</a></li>
+    <li><strong>YouTube</strong> (unlisted setup video): see <a href="https://www.youtube.com/intl/en/howyoutubeworks/our-commitments/protecting-user-data/">YouTube data commitments</a></li>
+    <li><strong>Anthropic</strong> (Claude API): your API usage data is governed by Anthropic's terms if you bring your own key; if we provide credits via LiteLLM proxy, proxy logs are deleted within 30 days</li>
+    <li><strong>Application form provider</strong> (Tally.so or Google Forms): see their policies</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>You may at any time:</p>
+  <ul>
+    <li>Request a copy of all data we hold about you</li>
+    <li>Request correction of any data</li>
+    <li>Request deletion of your application data (we will delete and notify you of completion within 30 days)</li>
+    <li>Request anonymization of your contributions to the public archive</li>
+    <li>Withdraw consent for any recording</li>
+  </ul>
+  <p>Contact: <a href="mailto:privacy@codecaravan.dev">privacy@codecaravan.dev</a></p>
+
+  <h2>Children</h2>
+  <p>We do not accept applicants under 18. If you discover that you provided information while under 18, please contact us immediately for deletion.</p>
+
+  <h2>International transfers</h2>
+  <p>This site is hosted by GitHub (US). Application form data may be processed by Tally.so (EU) or Google Forms (US). By applying, you consent to these transfers.</p>
+
+  <h2>Security</h2>
+  <p>We use HTTPS site-wide. Application form data is stored in the form provider's encrypted database. Selection scoring is done on the instructor's local machine, never on cloud storage.</p>
+
+  <h2>Updates</h2>
+  <p>We may update this policy. Material changes will be announced via email to current cohort participants and posted to this page.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:privacy@codecaravan.dev">privacy@codecaravan.dev</a></p>
+
+  <hr class="mt-10 border-gray-200" />
+  <p class="mt-4 text-sm text-gray-500"><strong>Version log</strong></p>
+  <ul class="mt-2 list-disc pl-6 text-sm text-gray-500">
+    <li>1.0.0 (2026-XX-XX) — Initial version</li>
+  </ul>
+</article>

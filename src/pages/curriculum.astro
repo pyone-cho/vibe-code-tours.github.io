@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import CurriculumBody from '../components/CurriculumBody.astro';
+import { t } from '../i18n/utils';
+const s = t('en').curriculum;
+---
+<Base title={s.title} description={s.description}>
+  <CurriculumBody />
+</Base>

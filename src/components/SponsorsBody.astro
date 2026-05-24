@@ -1,0 +1,38 @@
+---
+import { t, getLocale, type Locale } from '../i18n/utils';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale).sponsors;
+---
+
+<article class="container-prose py-12">
+  <h1 class="text-3xl sm:text-4xl">{s.heading}</h1>
+  <p class="mt-6 text-lg text-gray-700">{s.intro}</p>
+
+  <h2 class="mt-10 text-2xl">{s.cohort1Heading}</h2>
+  <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+    {s.cohort1List.map((item) => <li>{item}</li>)}
+  </ul>
+
+  <h2 class="mt-10 text-2xl">{s.howHeading}</h2>
+
+  <h3 class="mt-6 text-xl">{s.orgHeading}</h3>
+  <p class="mt-2 text-gray-700">{s.orgIntro}</p>
+  <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+    {s.orgList.map((item) => <li>{item}</li>)}
+  </ul>
+  <p class="mt-3 text-gray-700">{s.orgContact}</p>
+
+  <h3 class="mt-6 text-xl">{s.indHeading}</h3>
+  <p class="mt-2 text-gray-700">{s.indIntro}</p>
+  <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+    {s.indList.map((item) => <li>{item}</li>)}
+  </ul>
+
+  <h3 class="mt-6 text-xl">{s.getHeading}</h3>
+  <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+    {s.getList.map((item) => <li>{item}</li>)}
+  </ul>
+
+  <p class="mt-6 rounded-lg bg-accent-50 px-5 py-4 font-semibold text-accent-800">{s.noSell}</p>
+</article>

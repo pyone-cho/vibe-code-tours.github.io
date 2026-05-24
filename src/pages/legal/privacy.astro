@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import PrivacyBody from '../../components/PrivacyBody.astro';
+import { t } from '../../i18n/utils';
+const s = t('en').privacy;
+---
+<Base title={s.title} description={s.description}>
+  <PrivacyBody />
+</Base>

@@ -1,0 +1,31 @@
+---
+import { t, getLocale, localizedPath, type Locale } from '../i18n/utils';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale);
+
+const links = [
+  { href: '/legal/terms', label: s.footer.terms },
+  { href: '/legal/code-of-conduct', label: s.footer.coc },
+  { href: '/legal/privacy', label: s.footer.privacy },
+  { href: '/contact', label: s.footer.contact },
+];
+---
+
+<footer class="mt-16 border-t border-gray-200 bg-gray-50">
+  <div class="mx-auto max-w-5xl px-5 py-8 sm:px-6">
+    <p class="text-sm text-gray-700">{s.footer.rights}</p>
+    <nav aria-label="Legal" class="mt-2">
+      <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        {links.map((item) => (
+          <li>
+            <a href={localizedPath(item.href, locale)} class="text-accent-700 hover:text-accent-800">
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <p class="mt-4 text-xs text-gray-500">{s.footer.license}</p>
+  </div>
+</footer>

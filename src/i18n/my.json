@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "lang": "my",
+    "langLabel": "မြန်မာ",
+    "altLangLabel": "EN"
+  },
+  "brand": {
+    "name": "[MY] Code Caravan",
+    "tagline": "[MY] A guided journey into AI-paired coding"
+  },
+  "nav": {
+    "home": "[MY] Home",
+    "about": "[MY] About",
+    "team": "[MY] Team",
+    "curriculum": "[MY] Curriculum",
+    "apply": "[MY] Apply",
+    "sponsors": "[MY] Sponsors",
+    "faq": "[MY] FAQ",
+    "contact": "[MY] Contact"
+  },
+  "footer": {
+    "rights": "[MY] © 2026 Code Caravan",
+    "terms": "[MY] Terms",
+    "coc": "[MY] Code of Conduct",
+    "privacy": "[MY] Privacy",
+    "contact": "[MY] Contact",
+    "license": "[MY] Curriculum: CC-BY-SA 4.0 · Code: MIT · Logo + visuals: CC-BY-SA 4.0"
+  },
+  "home": {
+    "title": "[MY] Code Caravan — A guided journey into AI-paired coding",
+    "description": "[MY] A cohort-based online tour of the AI coding ecosystem, designed for Myanmar developers ready to build with Claude Code. 8 weeks. 9 students. Free.",
+    "heroTitle": "[MY] AI & Vibe Coding Tour",
+    "heroStat": "[MY] 8 weeks. 9 students. Free.",
+    "heroSub": "[MY] A cohort-based online tour of the AI coding ecosystem, designed for Myanmar developers ready to build with Claude Code.",
+    "ctaApply": "[MY] Apply for the next cohort →",
+    "ctaWork": "[MY] See Cohort 1 work →",
+    "card1Title": "[MY] What you'll learn",
+    "card1Body": "[MY] AI-paired coding fundamentals, prompt craft, team workflows on real projects, and how to ship something useful with Claude as your pair.",
+    "card2Title": "[MY] How it works",
+    "card2Body": "[MY] 2-hour live sessions, twice a week, for 8 weeks. Solo instructor, 9-student cohort, 3 teams of 3. Public Tour Repo. Demo day at the end.",
+    "card3Title": "[MY] Who it's for",
+    "card3Body": "[MY] Beginners with terminal comfort. Intermediate devs adding AI to their toolkit. Experienced engineers curious about the AI coding landscape, not just one tool.",
+    "credibility": "[MY] Free to participants · Sponsored by [list] · MIT / CC-BY-SA licensed curriculum"
+  },
+  "about": {
+    "title": "[MY] About — Code Caravan",
+    "description": "[MY] Why Code Caravan exists: a curated entry into the AI coding ecosystem for Myanmar developers, built on awareness over mastery and honesty about what we skip.",
+    "heading": "[MY] Why this Tour exists",
+    "intro1": "[MY] Most coding courses teach one stack. Most AI tutorials teach one tool. Neither helps a developer in 2026, when the landscape changes monthly and the meta-skill is \"navigate change.\"",
+    "intro2": "[MY] We started this Tour for a specific group: Myanmar developers who can follow a terminal, want to build, and need a curated entry into the AI coding ecosystem without paying $1000 for a bootcamp that teaches yesterday's tools.",
+    "believeHeading": "[MY] What we believe",
+    "beliefs": [
+      {
+        "title": "[MY] Awareness over mastery.",
+        "body": "[MY] You don't need to master Claude Code, Cursor, Copilot, and four others. You need to know they exist, what they're for, and how to pick. Mastery comes after."
+      },
+      {
+        "title": "[MY] AI is the default partner, not an afterthought.",
+        "body": "[MY] Claude shows up in every chapter — including the team workflows chapter, the deployment chapter, the testing chapter. Not just the \"AI module.\""
+      },
+      {
+        "title": "[MY] Projects are vehicles, not outcomes.",
+        "body": "[MY] 60% finished with insight beats 100% finished without. The point is what you understand, not what you shipped."
+      },
+      {
+        "title": "[MY] Honest about what we skip.",
+        "body": "[MY] We don't teach a specific framework deeply. We don't certify. We don't place students in jobs. We tell you what we're NOT doing as clearly as what we ARE."
+      },
+      {
+        "title": "[MY] Teaching is recursive.",
+        "body": "[MY] Each cohort makes the next cohort better. We publish what we learn. We publish what didn't work."
+      }
+    ],
+    "notHeading": "[MY] What this Tour is NOT",
+    "notList": [
+      "[MY] A bootcamp with a placement guarantee — there is no placement",
+      "[MY] An AI coding tools advertisement — we critique tools openly",
+      "[MY] A pure Claude Code class — Claude is the through-line, not the topic",
+      "[MY] A beginner-only space — we welcome all levels, with peer-teaching as design",
+      "[MY] A Myanmar-exclusive program — applicants from any country welcome, but instruction is in English with Burmese support"
+    ]
+  },
+  "team": {
+    "title": "[MY] Team — Code Caravan",
+    "description": "[MY] Who runs Code Caravan: the lead instructor, advisors, and how to help.",
+    "heading": "[MY] Who runs this",
+    "leadHeading": "[MY] Lead instructor",
+    "photoAlt": "[MY] Instructor photo placeholder",
+    "photoCaption": "[MY] Photo coming soon",
+    "name": "[MY] <Your full name>",
+    "bio": "[MY] <1-paragraph bio. Mention: years of experience, languages/tools, why this Tour matters personally, current role if relevant, GitHub handle.>",
+    "github": "[MY] GitHub",
+    "githubHandle": "@kokoye2007",
+    "githubUrl": "https://github.com/kokoye2007",
+    "x": "[MY] X / Twitter",
+    "xHandle": "@your-handle",
+    "xUrl": "https://x.com/your-handle",
+    "emailLabel": "[MY] Email",
+    "email": "tour@codecaravan.dev",
+    "advisorsHeading": "[MY] Advisors",
+    "advisorsBody": "[MY] (Optional — list mentors, technical advisors, past students serving as TAs.)",
+    "helpHeading": "[MY] Want to help?",
+    "helpBody": "[MY] We accept contributions of feedback, sponsorship, and time. See the sponsors page for how to contribute."
+  },
+  "curriculum": {
+    "title": "[MY] Curriculum — Code Caravan",
+    "description": "[MY] 8 chapters over 8 weeks. AI-paired coding from setup to demo day, structured by the A/B/C tier framework.",
+    "heading": "[MY] What you'll learn",
+    "intro": "[MY] 8 chapters over 8 weeks. 2 sessions × 2 hours per chapter. Plus async pre-class setup (Chapter 0). Cohort runs 16 live sessions across the 8-week arc.",
+    "ctaSample": "[MY] See sample curriculum: Chapter 2 →",
+    "ctaDownload": "[MY] Download outline (PDF) →",
+    "readMore": "[MY] Read more →",
+    "startHere": "[MY] START HERE",
+    "tierHeading": "[MY] Tier framework",
+    "tierIntro": "[MY] Every chapter is built from blocks tagged by tier. The mix shows how AI fits into that chapter:",
+    "tierA": "[MY] Tier A — AI off. Manual demo, bootstrap, human ceremony.",
+    "tierB": "[MY] Tier B — Foundation. You do it manually first, then with AI.",
+    "tierC": "[MY] Tier C — AI default. Claude does the work, you validate.",
+    "tierNote": "[MY] We deliberately balance the ratio per chapter. Ch0 is all A (manual setup). Ch2 is heavy B+C (learning Claude). Ch8 is back to A (demos are human).",
+    "getHeading": "[MY] What you get",
+    "commitHeading": "[MY] What you commit",
+    "get": [
+      "[MY] 16 live sessions (32 hours)",
+      "[MY] All curriculum materials (CC-BY-SA)",
+      "[MY] Cohort channel access",
+      "[MY] One-on-one office hour (optional)",
+      "[MY] A public PR on the Tour Repo (portfolio)"
+    ],
+    "commit": [
+      "[MY] 5-8 hours per week outside class",
+      "[MY] Show up to 2/3 of sessions minimum",
+      "[MY] Demo day attendance",
+      "[MY] Help your buddy",
+      "[MY] One honest retrospective at the end"
+    ]
+  },
+  "apply": {
+    "title": "[MY] Apply — Code Caravan",
+    "description": "[MY] Cohort 1 applications closed with 298 registrants; 9 students selected. Join the announcement list for the next cohort.",
+    "heading": "[MY] Applications closed",
+    "closedBody": "[MY] Cohort 1 applications closed on 2026-XX-XX with 298 registrants. 9 students were selected.",
+    "nextCohort": "[MY] Next cohort opens: announcing in early 2027.",
+    "notifyHeading": "[MY] To be notified",
+    "notifyList": [
+      "[MY] Watch this site",
+      "[MY] Or email tour@codecaravan.dev to join the announcement list"
+    ],
+    "lookHeading": "[MY] What we look for",
+    "lookIntro": "[MY] (Same scoring criteria we used. Transparency builds trust.)",
+    "lookList": [
+      "[MY] Realistic time commitment (5+ hr/week outside class)",
+      "[MY] Concrete project idea (or willingness to find one)",
+      "[MY] Terminal comfort",
+      "[MY] Honest about gaps",
+      "[MY] Willing to pair with a buddy",
+      "[MY] Working laptop with 8GB+ RAM + stable internet"
+    ]
+  },
+  "sponsors": {
+    "title": "[MY] Sponsors — Code Caravan",
+    "description": "[MY] The Tour is free to students. That requires sponsorship. How organizations and individuals can support Code Caravan.",
+    "heading": "[MY] Sponsors + supporters",
+    "intro": "[MY] The Tour is free to students. That requires sponsorship.",
+    "cohort1Heading": "[MY] Cohort 1 sponsors",
+    "cohort1List": [
+      "[MY] [Sponsor 1] — provided <what>",
+      "[MY] [Sponsor 2] — provided <what>",
+      "[MY] (Or: \"Currently bootstrapped by instructor + small donors. See below to support.\")"
+    ],
+    "howHeading": "[MY] How to sponsor",
+    "orgHeading": "[MY] For organizations",
+    "orgIntro": "[MY] We need:",
+    "orgList": [
+      "[MY] API credits (Anthropic, AWS, Google Cloud)",
+      "[MY] Cloud compute (small VPS or droplet)",
+      "[MY] Cash for student equipment grants (laptops for students who lack one)",
+      "[MY] Office hours from senior engineers (1 hr/week)"
+    ],
+    "orgContact": "[MY] Contact: tour@codecaravan.dev with subject \"Sponsor inquiry\".",
+    "indHeading": "[MY] For individuals",
+    "indIntro": "[MY] If you want to back the Tour at smaller scale:",
+    "indList": [
+      "[MY] GitHub Sponsors: github.com/sponsors/<your-username>",
+      "[MY] Buy Me a Coffee: <link>",
+      "[MY] Spread the word — share the next cohort announcement"
+    ],
+    "getHeading": "[MY] What sponsors get",
+    "getList": [
+      "[MY] Logo on this page",
+      "[MY] Mention in setup video credits (with consent)",
+      "[MY] Demo day recording access",
+      "[MY] First look at student demos for hiring (with student consent)"
+    ],
+    "noSell": "[MY] We do NOT sell sponsor access to student data. Ever."
+  },
+  "faq": {
+    "title": "[MY] FAQ — Code Caravan",
+    "description": "[MY] Frequently asked questions about Code Caravan: is it free, certificates, time commitment, joining from abroad, and more.",
+    "heading": "[MY] Frequently asked questions",
+    "items": [
+      {
+        "q": "[MY] Is the Tour really free?",
+        "a": "[MY] Yes. We're sponsor-funded. We don't take money from students. We may ask for an optional voluntary contribution at the end if you found it valuable, but it's never required."
+      },
+      {
+        "q": "[MY] Why \"Tour\"?",
+        "a": "[MY] We tour the AI coding ecosystem — multiple tools, multiple workflows, multiple model providers. Not a bootcamp on one stack."
+      },
+      {
+        "q": "[MY] Do I get a certificate?",
+        "a": "[MY] Not in the legally-recognized sense. You get: a public PR on the Tour Repo (portfolio piece), a demo day recording (your work, shareable), and a reference letter from the instructor on request."
+      },
+      {
+        "q": "[MY] Can I join from outside Myanmar?",
+        "a": "[MY] Yes. Instruction is English. Cohort schedule is Myanmar evening / SE Asia evening, which works for ~half the planet."
+      },
+      {
+        "q": "[MY] How much time do I need per week?",
+        "a": "[MY] 5-8 hours outside the 4 hours of class. Honest answer: closer to 8 if you're newer."
+      },
+      {
+        "q": "[MY] What if I can't make a session?",
+        "a": "[MY] Up to one-third of sessions can be missed without penalty (recordings provided). Beyond that you risk losing your cohort spot."
+      },
+      {
+        "q": "[MY] What if I don't have a project idea?",
+        "a": "[MY] That's normal for beginners. Chapter 3 helps you find one. Many students enter with no idea and leave with a working prototype."
+      },
+      {
+        "q": "[MY] Will you teach a specific tool?",
+        "a": "[MY] We touch on Claude Code (deeply), plus Cursor, Copilot, Aider, and the broader landscape. We don't promise depth on any single tool besides Claude Code."
+      },
+      {
+        "q": "[MY] What if I don't speak English well?",
+        "a": "[MY] We provide Burmese support in channel for questions. Course materials are English; we recommend Claude itself for translation help — meta, but it works."
+      },
+      {
+        "q": "[MY] Do you teach machine learning?",
+        "a": "[MY] No. We teach AI-paired CODING. Claude is the AI; you're the coder. We don't teach how to build models — we teach how to ship with them."
+      },
+      {
+        "q": "[MY] Will there be a Cohort 2?",
+        "a": "[MY] If Cohort 1 goes well. Subscribe via the apply page."
+      },
+      {
+        "q": "[MY] How do I help?",
+        "a": "[MY] See the sponsors page for organization-level support or individual donations. Or share this site with one developer who'd benefit."
+      },
+      {
+        "q": "[MY] I have a question not answered here.",
+        "a": "[MY] Email tour@codecaravan.dev."
+      }
+    ]
+  },
+  "contact": {
+    "title": "[MY] Contact — Code Caravan",
+    "description": "[MY] How to reach Code Caravan: applicant questions, sponsorship, privacy requests, and Code of Conduct reports.",
+    "heading": "[MY] Contact",
+    "applicants": "[MY] For applicants + general questions",
+    "applicantsEmail": "tour@codecaravan.dev",
+    "sponsorship": "[MY] For sponsorship",
+    "sponsorshipEmail": "tour@codecaravan.dev",
+    "sponsorshipNote": "[MY] with subject \"Sponsor inquiry\"",
+    "privacy": "[MY] For privacy / data requests",
+    "privacyEmail": "privacy@codecaravan.dev",
+    "coc": "[MY] For Code of Conduct reports",
+    "cocEmail": "conduct@codecaravan.dev",
+    "channelsHeading": "[MY] Public channels",
+    "github": "[MY] GitHub",
+    "githubUrl": "https://github.com/code-caravan",
+    "githubLabel": "github.com/code-caravan",
+    "x": "[MY] X / Twitter",
+    "xHandle": "@your-handle",
+    "xUrl": "https://x.com/your-handle",
+    "forwardNote": "[MY] (All @codecaravan.dev emails forward to the lead instructor.)"
+  },
+  "terms": {
+    "title": "[MY] Terms & Conditions — Code Caravan",
+    "description": "[MY] Code Caravan Terms & Conditions v1.0.0: eligibility, conduct, intellectual property, disclaimers, and limitation of liability."
+  },
+  "coc": {
+    "title": "[MY] Code of Conduct — Code Caravan",
+    "description": "[MY] Code Caravan Code of Conduct, based on Contributor Covenant 2.1, with Myanmar-context additions on language, politics, and gender in tech."
+  },
+  "privacy": {
+    "title": "[MY] Privacy Policy — Code Caravan",
+    "description": "[MY] Code Caravan Privacy Policy v1.0.0: what we collect, why, how long we keep it, who sees it, third parties, and your rights."
+  }
+}

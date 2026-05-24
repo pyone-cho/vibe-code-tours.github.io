@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import TeamBody from '../../components/TeamBody.astro';
+import { t } from '../../i18n/utils';
+const s = t('my').team;
+---
+<Base title={s.title} description={s.description}>
+  <TeamBody />
+</Base>

@@ -1,0 +1,27 @@
+---
+import { t, getLocale, type Locale } from '../i18n/utils';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale).about;
+---
+
+<article class="container-prose py-12">
+  <h1 class="text-3xl sm:text-4xl">{s.heading}</h1>
+  <p class="mt-6 text-lg text-gray-700">{s.intro1}</p>
+  <p class="mt-4 text-lg text-gray-700">{s.intro2}</p>
+
+  <h2 class="mt-10 text-2xl">{s.believeHeading}</h2>
+  <ul class="mt-4 space-y-4">
+    {s.beliefs.map((b) => (
+      <li class="rounded-lg border border-gray-200 p-5">
+        <p class="font-semibold text-gray-900">{b.title}</p>
+        <p class="mt-1 text-gray-700">{b.body}</p>
+      </li>
+    ))}
+  </ul>
+
+  <h2 class="mt-10 text-2xl">{s.notHeading}</h2>
+  <ul class="mt-4 list-disc space-y-2 pl-6 text-gray-700">
+    {s.notList.map((item) => <li>{item}</li>)}
+  </ul>
+</article>

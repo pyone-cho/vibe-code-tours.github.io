@@ -1,0 +1,49 @@
+---
+import { t, getLocale, localizedPath, altLocaleHref, type Locale } from '../i18n/utils';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale);
+const altHref = altLocaleHref(Astro.url.pathname);
+const altLabel = s.meta.altLangLabel;
+
+const nav = [
+  { href: '/about', label: s.nav.about },
+  { href: '/team', label: s.nav.team },
+  { href: '/curriculum', label: s.nav.curriculum },
+  { href: '/apply', label: s.nav.apply },
+  { href: '/sponsors', label: s.nav.sponsors },
+  { href: '/faq', label: s.nav.faq },
+  { href: '/contact', label: s.nav.contact },
+];
+---
+
+<header class="border-b border-gray-200 bg-white">
+  <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-4 sm:px-6">
+    <a href={localizedPath('/', locale)} class="text-lg font-bold tracking-tight text-gray-900 no-underline hover:text-accent-800">
+      {s.brand.name}
+    </a>
+
+    <nav aria-label="Primary" class="order-3 w-full sm:order-2 sm:w-auto">
+      <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        {nav.map((item) => (
+          <li>
+            <a
+              href={localizedPath(item.href, locale)}
+              class="text-gray-700 no-underline hover:text-accent-800"
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <a
+      href={altHref}
+      class="order-2 rounded-md border border-gray-300 px-2.5 py-1 text-sm font-semibold text-gray-700 no-underline hover:border-accent-600 hover:text-accent-800 sm:order-3"
+      lang={locale === 'en' ? 'my' : 'en'}
+    >
+      {altLabel}
+    </a>
+  </div>
+</header>

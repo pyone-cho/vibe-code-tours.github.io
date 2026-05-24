@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactBody from '../components/ContactBody.astro';
+import { t } from '../i18n/utils';
+const s = t('en').contact;
+---
+<Base title={s.title} description={s.description}>
+  <ContactBody />
+</Base>

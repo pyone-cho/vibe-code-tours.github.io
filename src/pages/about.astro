@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import AboutBody from '../components/AboutBody.astro';
+import { t } from '../i18n/utils';
+const s = t('en').about;
+---
+<Base title={s.title} description={s.description}>
+  <AboutBody />
+</Base>

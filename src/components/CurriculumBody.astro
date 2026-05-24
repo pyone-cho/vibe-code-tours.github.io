@@ -1,0 +1,68 @@
+---
+import { t, getLocale, type Locale } from '../i18n/utils';
+import { chapters } from '../data/chapters';
+import ChapterCard from './ChapterCard.astro';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale).curriculum;
+
+const hero = chapters.find((c) => c.hero);
+const rest = chapters.filter((c) => !c.hero);
+---
+
+<section class="mx-auto max-w-4xl px-5 py-12 sm:px-6">
+  <h1 class="text-3xl sm:text-4xl">{s.heading}</h1>
+  <p class="mt-4 max-w-prose text-lg text-gray-700">{s.intro}</p>
+  <div class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
+    <a href="#curriculum-grid">{s.ctaSample}</a>
+    <a href="#curriculum-grid">{s.ctaDownload}</a>
+  </div>
+
+  <div id="curriculum-grid" class="mt-10">
+    {hero && (
+      <div class="mb-4">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-accent-700">{s.startHere}</p>
+        <ChapterCard chapter={hero} readMore={s.readMore} />
+      </div>
+    )}
+
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+      {rest.map((chapter) => (
+        <ChapterCard chapter={chapter} readMore={s.readMore} />
+      ))}
+    </div>
+  </div>
+
+  <h2 class="mt-14 text-2xl">{s.tierHeading}</h2>
+  <p class="mt-3 max-w-prose text-gray-700">{s.tierIntro}</p>
+  <ul class="mt-4 space-y-3">
+    <li class="flex items-start gap-3">
+      <span class="tier tier-a mt-0.5">A</span>
+      <span class="text-gray-700">{s.tierA}</span>
+    </li>
+    <li class="flex items-start gap-3">
+      <span class="tier tier-b mt-0.5">B</span>
+      <span class="text-gray-700">{s.tierB}</span>
+    </li>
+    <li class="flex items-start gap-3">
+      <span class="tier tier-c mt-0.5">C</span>
+      <span class="text-gray-700">{s.tierC}</span>
+    </li>
+  </ul>
+  <p class="mt-4 max-w-prose text-sm text-gray-500">{s.tierNote}</p>
+
+  <div class="mt-12 grid gap-6 sm:grid-cols-2">
+    <div>
+      <h2 class="text-xl">{s.getHeading}</h2>
+      <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+        {s.get.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-xl">{s.commitHeading}</h2>
+      <ul class="mt-3 list-disc space-y-1 pl-5 text-gray-700">
+        {s.commit.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </div>
+</section>

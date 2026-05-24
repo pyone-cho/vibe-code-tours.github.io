@@ -1,0 +1,75 @@
+---
+import { getLocale, localizedPath, type Locale } from '../i18n/utils';
+import LegalNotice from './LegalNotice.astro';
+const locale: Locale = getLocale(Astro.url.pathname);
+const coc = localizedPath('/legal/code-of-conduct', locale);
+const privacy = localizedPath('/legal/privacy', locale);
+const curriculum = localizedPath('/curriculum', locale);
+---
+
+<article class="container-prose py-12 [&_h2]:mt-8 [&_h2]:text-xl [&_p]:mt-3 [&_p]:text-gray-700 [&_ul]:mt-3 [&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-6 [&_li]:text-gray-700">
+  <LegalNotice />
+  <h1 class="text-3xl sm:text-4xl">Terms &amp; Conditions</h1>
+  <p class="mt-4 text-sm text-gray-500">
+    Version 1.0.0 · Effective 2026-XX-XX · Last updated 2026-XX-XX
+  </p>
+
+  <h2>1. Acceptance</h2>
+  <p>By participating in the AI &amp; Vibe Coding Tour ("the Tour"), you agree to these Terms.</p>
+
+  <h2>2. Eligibility</h2>
+  <p>You must be 18 or older. You must have a working development environment (see <a href={curriculum}>the curriculum</a> for setup requirements). The Tour is delivered in English with Burmese language support.</p>
+
+  <h2>3. Conduct</h2>
+  <p>You agree to follow our <a href={coc}>Code of Conduct</a>. Violations may result in removal from the cohort.</p>
+
+  <h2>4. Intellectual Property</h2>
+  <p><strong>Curriculum content</strong> (text, diagrams, slides) is licensed under Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA-4.0). You may share and adapt with attribution.</p>
+  <p><strong>Code</strong> in our repositories is licensed under the MIT License.</p>
+  <p><strong>Your work</strong> — code you write, ideas you contribute, content you post in cohort channels — remains yours. By submitting a PR to the Tour Repo, you grant us a non-exclusive license to display your contribution in the public cohort archive.</p>
+
+  <h2>5. Privacy</h2>
+  <p>We collect application data, attendance, and (optionally) demo recordings. See <a href={privacy}>Privacy Policy</a> for full details.</p>
+
+  <h2>6. Termination</h2>
+  <p>We may remove a participant from the cohort for:</p>
+  <ul>
+    <li>Code of Conduct violations</li>
+    <li>More than one-third of sessions missed without notice</li>
+    <li>Repeated harassment after warning</li>
+    <li>Submitting plagiarized work as your own</li>
+  </ul>
+  <p>Removed participants forfeit access to remaining sessions and the cohort channel.</p>
+
+  <h2>7. Disclaimers</h2>
+  <p><strong>No warranty.</strong> The Tour is provided "as is." We make best effort to deliver high-quality instruction but make no guarantee of any specific learning outcome.</p>
+  <p><strong>No certification.</strong> Completing the Tour does not produce a legally-recognized certification, diploma, or accreditation.</p>
+  <p><strong>No employment promise.</strong> We do not guarantee jobs, internships, or referrals.</p>
+  <p><strong>Best effort on availability.</strong> The instructor will make best effort to attend all scheduled sessions. In case of illness or emergency, sessions may be rescheduled.</p>
+  <p><strong>Third-party services.</strong> The Tour uses third-party services (Anthropic, GitHub, Telegram, etc.). Their terms also apply to your use of those services. We're not responsible for their uptime, pricing, or policies.</p>
+
+  <h2>8. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by applicable law, our liability is limited to the amount you paid us (which is zero for participants — the Tour is free).</p>
+  <p>We are not liable for:</p>
+  <ul>
+    <li>Lost data on your devices</li>
+    <li>Third-party API charges (if you incur any outside provided credits)</li>
+    <li>Career outcomes</li>
+    <li>Disputes between cohort members</li>
+  </ul>
+
+  <h2>9. Changes</h2>
+  <p>We may update these Terms. Material changes will be announced via email and posted to this page. Version log at the bottom of this page.</p>
+
+  <h2>10. Governing law</h2>
+  <p>These Terms are governed by the laws of the Republic of Singapore. Disputes will be resolved through arbitration under the Singapore International Arbitration Centre (SIAC) rules, conducted in English.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about these Terms: <a href="mailto:tour@codecaravan.dev">tour@codecaravan.dev</a></p>
+
+  <hr class="mt-10 border-gray-200" />
+  <p class="mt-4 text-sm text-gray-500"><strong>Version log</strong></p>
+  <ul class="mt-2 list-disc pl-6 text-sm text-gray-500">
+    <li>1.0.0 (2026-XX-XX) — Initial version</li>
+  </ul>
+</article>

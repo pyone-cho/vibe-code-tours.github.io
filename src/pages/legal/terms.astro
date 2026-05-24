@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import TermsBody from '../../components/TermsBody.astro';
+import { t } from '../../i18n/utils';
+const s = t('en').terms;
+---
+<Base title={s.title} description={s.description}>
+  <TermsBody />
+</Base>

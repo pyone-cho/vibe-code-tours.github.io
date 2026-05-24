@@ -1,0 +1,11 @@
+---
+// Burmese legal pages reuse the English legal text until a translator
+// supplies the Burmese version. This banner flags that to readers.
+import { getLocale, type Locale } from '../i18n/utils';
+const locale: Locale = getLocale(Astro.url.pathname);
+---
+{locale === 'my' && (
+  <p class="mb-6 rounded-lg border border-accent-300 bg-accent-50 px-4 py-3 text-sm text-accent-800">
+    [MY] Burmese translation pending. The English text below is authoritative until translated.
+  </p>
+)}

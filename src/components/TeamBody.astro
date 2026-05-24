@@ -1,0 +1,39 @@
+---
+import { t, getLocale, localizedPath, type Locale } from '../i18n/utils';
+
+const locale: Locale = getLocale(Astro.url.pathname);
+const s = t(locale).team;
+---
+
+<article class="container-prose py-12">
+  <h1 class="text-3xl sm:text-4xl">{s.heading}</h1>
+
+  <h2 class="mt-8 text-2xl">{s.leadHeading}</h2>
+  <div class="mt-4 flex flex-col gap-5 sm:flex-row sm:items-start">
+    <div
+      class="flex h-40 w-40 shrink-0 items-center justify-center rounded-xl border border-dashed border-gray-300 bg-gray-50 text-center text-xs text-gray-400"
+      role="img"
+      aria-label={s.photoAlt}
+    >
+      {s.photoCaption}
+    </div>
+    <div>
+      <p class="text-xl font-bold text-gray-900">{s.name}</p>
+      <p class="mt-2 text-gray-700">{s.bio}</p>
+      <ul class="mt-4 space-y-1 text-sm">
+        <li>{s.github}: <a href={s.githubUrl}>{s.githubHandle}</a></li>
+        <li>{s.x}: <a href={s.xUrl}>{s.xHandle}</a></li>
+        <li>{s.emailLabel}: <a href={`mailto:${s.email}`}>{s.email}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="mt-10 text-2xl">{s.advisorsHeading}</h2>
+  <p class="mt-2 text-gray-700">{s.advisorsBody}</p>
+
+  <h2 class="mt-10 text-2xl">{s.helpHeading}</h2>
+  <p class="mt-2 text-gray-700">
+    {s.helpBody.replace(/sponsors page/i, '')}
+    <a href={localizedPath('/sponsors', locale)}>{t(locale).nav.sponsors}</a>.
+  </p>
+</article>

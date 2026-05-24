@@ -1,0 +1,67 @@
+@import '@fontsource/noto-sans-myanmar/400.css';
+@import '@fontsource/noto-sans-myanmar/600.css';
+@import '@fontsource/noto-sans-myanmar/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-800 antialiased;
+  }
+  /* Burmese pages get the Myanmar-first font stack + slightly looser leading. */
+  html[lang='my'] body {
+    @apply font-my leading-relaxed;
+  }
+  a {
+    @apply text-accent-700 underline-offset-2;
+  }
+  a:hover {
+    @apply text-accent-800;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-gray-900 font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .container-prose {
+    @apply mx-auto w-full max-w-3xl px-5 sm:px-6;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-5 py-3 text-base font-semibold no-underline transition;
+  }
+  .btn-primary {
+    @apply bg-accent-600 text-white hover:bg-accent-700;
+  }
+  .btn-secondary {
+    @apply border border-gray-300 bg-white text-gray-800 hover:border-accent-600 hover:text-accent-800;
+  }
+  .card {
+    @apply block rounded-xl border border-gray-200 bg-white p-6 no-underline transition;
+  }
+  .card-link:hover {
+    @apply -translate-y-0.5 border-accent-500 shadow-md;
+  }
+  .tier {
+    @apply inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold;
+  }
+  .tier-a {
+    @apply bg-gray-200 text-gray-700;
+  }
+  .tier-b {
+    @apply bg-blue-100 text-blue-800;
+  }
+  .tier-c {
+    @apply bg-accent-100 text-accent-800;
+  }
+}

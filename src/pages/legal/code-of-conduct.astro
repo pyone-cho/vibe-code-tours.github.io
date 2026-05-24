@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import CocBody from '../../components/CocBody.astro';
+import { t } from '../../i18n/utils';
+const s = t('en').coc;
+---
+<Base title={s.title} description={s.description}>
+  <CocBody />
+</Base>
