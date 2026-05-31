@@ -3,9 +3,8 @@ name: Lwin Moe
 github: FurryForWhat
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python","React", "Copilot"]
+skills: ["JavaScript", "Python", "React", "Copilot"]
 linkedin: linkedin.com/in/lwin-moe-13918519a
-website: https://your-site.com
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship something

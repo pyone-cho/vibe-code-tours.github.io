@@ -1,9 +1,9 @@
 ---
-name: Hlaing Thinn Phyu 
+name: Hlaing Thinn Phyu
 github: HlaingThinPhyu
 cohort: 1
 role: builder
-skills: ["C# .NET", "SQL","JavaScript", "Python", "Claude Code"]
+skills: ["C# .NET", "SQL", "JavaScript", "Python", "Claude Code"]
 # repo: https://github.com/your-github-username/your-project
 # x: your-x-handle
 # linkedin: your-linkedin-username

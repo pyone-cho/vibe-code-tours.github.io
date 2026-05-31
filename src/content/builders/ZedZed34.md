@@ -3,7 +3,17 @@ name: Htet Lin Aung
 github: ZedZed34
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Claude Code", "Django", "Svelte", "Node.js", "Express.js", "PostgreSQL"]
+skills:
+  [
+    "JavaScript",
+    "Python",
+    "Claude Code",
+    "Django",
+    "Svelte",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+  ]
 repo: https://github.com/ZedZed34/vibe-code-tours.github.io.git
 x: zedzed
 linkedin: https://www.linkedin.com/in/htet-lin-aung-5159491a0

@@ -3,8 +3,7 @@ name: Aye Nyein
 github: AyeNyeinSan22
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python","Java", "Claude Code"]
-
+skills: ["JavaScript", "Python", "Java", "Claude Code"]
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship something

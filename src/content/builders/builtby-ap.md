@@ -5,7 +5,6 @@ cohort: 1
 role: builder
 skills: ["Web design", "Business Management"]
 repo: https://github.com/builtby-ap
-x: your-x-handle
 linkedin: Aye Pyae Wai Khin Soe
 website: https://apyae-dev.vercel.app/
 ---

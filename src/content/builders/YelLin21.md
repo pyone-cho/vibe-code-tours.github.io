@@ -5,16 +5,15 @@ cohort: 1
 role: builder
 skills: ["JavaScript", "Python", "Claude Code"]
 repo: https://github.com/YelLin21
-x: your-x-handle
 linkedin: https://www.linkedin.com/in/yel-lin-7a7a77258/
 website: https://yellin-pofolio.netlify.app/
 ---
 
-Hi! My name is Yel Lin. I am a fresh graduate in Information Technology from Assumption University, Thailand. 
-I am interested in software development, web technologies, and building real-world applications that can solve 
+Hi! My name is Yel Lin. I am a fresh graduate in Information Technology from Assumption University, Thailand.
+I am interested in software development, web technologies, and building real-world applications that can solve
 problems and improve daily life.
-During my studies, I worked on several projects, including web applications, AR projects, and a Unity-based 
-robot face recognition system. These projects helped me improve my programming skills, problem-solving ability, 
+During my studies, I worked on several projects, including web applications, AR projects, and a Unity-based
+robot face recognition system. These projects helped me improve my programming skills, problem-solving ability,
 and teamwork experience. I am a hardworking person who is willing to learn new technologies and improve myself
 continuously.
 My goal is to become a professional software developer and contribute to meaningful projects in the IT industry.

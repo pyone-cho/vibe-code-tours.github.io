@@ -5,7 +5,6 @@ cohort: 1
 role: builder
 skills: ["JavaScript", "Python", "Claude Code", "PHP"]
 repo: https://github.com/naitar/
-x: your-x-handle
 linkedin: naingtaryu
 website: https://naitaryu.blogspot.com/
 ---

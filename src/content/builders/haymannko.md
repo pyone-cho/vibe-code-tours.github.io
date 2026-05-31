@@ -5,9 +5,7 @@ cohort: 1
 role: builder
 skills: ["JavaScript", "Python", "Claude Code"]
 repo: https://github.com/haymannko/haymannko
-x: your-x-handle
 linkedin: haymannko
-website: https://your-site.com
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to use VibeTour knowledge in my career development.

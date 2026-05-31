@@ -5,9 +5,7 @@ cohort: 1
 role: builder
 skills: ["Java", "Python"]
 repo: https://github.com/hsupyae04-95
-x: your-x-handle
 linkedin: Hsu Pyae Thu
-website: https://your-site.com
 ---
 
 Hi! there, Here, I'm Hsu Pyae. I'm learning to vibe-code with AI. My goal is to build and ship something

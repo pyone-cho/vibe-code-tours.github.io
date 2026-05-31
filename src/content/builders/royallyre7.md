@@ -3,11 +3,8 @@ name: UlayAung
 github: royallyre7
 cohort: 1
 role: builder
-skills: ["Python", "Claude Code","Network","Security"]
-repo: https://github.com/your-github-username/your-project
-x: your-x-handle
+skills: ["Python", "Claude Code", "Network", "Security"]
 linkedin: aungzawtun305
-website: https://your-site.com
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build automation skill set with AI and to undersatand how can us AI in infrastructure and build and test some idea.

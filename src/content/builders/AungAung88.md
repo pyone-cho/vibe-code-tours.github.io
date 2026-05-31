@@ -5,9 +5,6 @@ cohort: 1
 role: builder
 skills: ["JavaScript", "Php", "Claude Code"]
 repo: https://github.com/AungAung88/vibe-code-tours.github.io
-x: 
-linkedin: 
-website: 
 ---
 
 Hi, I am Aung Pyae Sone. I'm learning to vibe-code with AI. My goal is to build and ship something

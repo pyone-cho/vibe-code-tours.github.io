@@ -3,7 +3,7 @@ name: Lwin Hein Khant
 github: FurryForWhat
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python","Java", "Claude Code"]
+skills: ["JavaScript", "Python", "Java", "Claude Code"]
 repo: https://github.com/FurryForWhat/vibe-code-tours.github.io
 x: your-x-handle
 linkedin: kofurry

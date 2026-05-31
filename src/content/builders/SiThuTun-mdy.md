@@ -1,13 +1,10 @@
 ---
 name: Si Thu Tun
-github: [SiThuTun-mdy](https://github.com/SiThuTun-mdy)
+github: SiThuTun-mdy
 cohort: 1
 role: builder
 skills: ["Java", "JavaScript", "React", "Claude Code"]
-repo: https://github.com/your-github-username/your-project
-x: your-x-handle
-linkedin: [Si Thu Tun](https://www.linkedin.com/in/si-thu-tun-87b5b2b9/)
-website: https://your-site.com
+linkedin: si-thu-tun-87b5b2b9
 ---
 
 Hi there, Here's Si Thu Tun, Learning and coding.

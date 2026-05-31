@@ -4,10 +4,7 @@ github: Yarzarmyomin97
 cohort: 1
 role: builder
 skills: ["Flutter", "Dart", "Android", "iOS", "JavaScript", "Firebase"]
-repo: https://github.com/your-github-username/your-project
-x: your-x-handle
 linkedin: yarzarmyomin
-website: https://your-site.com
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship **AI-powered job application platform** by Demo Day. Excited to be part of the Tour.
