@@ -3,13 +3,10 @@ name: Pyone Cho
 github: pyone-cho
 cohort: 1
 role: builder
-skills: ["JavaScript", "Python", "Claude Code"]
+skills: ["C", "C++", "Bash", "Ubuntu-Linux", "Claude Code"]
 repo: https://github.com/pyone-cho/pyone-cho
-x: your-x-handle
-linkedin: Pyone Cho
-website: https://your-site.com
+linkedin: https://www.linkedin.com/in/pyone-cho-6671a9114/
 certs:
-  claude_101: -
   claude_code_101: https://verify.skilljar.com/c/pwfdhm93rxjy
 ---
 
