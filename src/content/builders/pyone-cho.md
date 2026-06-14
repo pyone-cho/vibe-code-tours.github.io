@@ -6,8 +6,11 @@ role: builder
 skills: ["JavaScript", "Python", "Claude Code"]
 repo: https://github.com/pyone-cho/pyone-cho
 x: your-x-handle
-linkedin: your-linkedin-username
+linkedin: Pyone Cho
 website: https://your-site.com
+certs:
+  claude_101: -
+  claude_code_101: https://verify.skilljar.com/c/pwfdhm93rxjy
 ---
 
 Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
